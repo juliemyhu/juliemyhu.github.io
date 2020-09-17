@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+.socialicon {
+	width:100px;
+	height:100px;
+}
+
 /* Row */
 
 	.row {
