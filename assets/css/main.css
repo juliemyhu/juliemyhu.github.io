@@ -77,6 +77,11 @@ input, select, textarea {
 	height:60px;
 }
 
+.button1 {
+	background-color: rgb(179, 140, 140);
+	color:black;
+  }
+
 /* Row */
 
 	.row {
@@ -1587,6 +1592,8 @@ input, select, textarea {
 			}
 
 /* Button */
+
+
 
 	input[type="button"],
 	input[type="submit"],
