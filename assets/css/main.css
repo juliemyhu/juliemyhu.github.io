@@ -163,7 +163,12 @@ textarea {
 .socialicon {
   width: 60px;
   height: 60px;
-  color: black;
+}
+
+.socialicon:hover {
+  color: yellow;
+  box-shadow: cornflowerblue;
+  text-shadow: #aaa;
 }
 
 .button1 {
@@ -220,6 +225,12 @@ textarea {
   /* background-color: red; */
   color: #000;
 }
+
+/* .fab-hover {
+  opacity: 50%;
+  box-shadow: 0px 0px 8px rgba(218, 214, 214, 0.25);
+  transition: all 0.5 ease;
+} */
 
 /* Row */
 
