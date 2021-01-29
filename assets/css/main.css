@@ -160,15 +160,68 @@ textarea {
   appearance: none;
 }
 
-.socialicon {
+/* .socialicon {
   width: 60px;
   height: 60px;
+} */
+
+.social-menu ul {
+  /* position: absolute; */
+  /* top: 130%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  padding: 30px;
+  /* margin: 0; */
+  display: flex;
+}
+.social-menu ul li {
+  list-style: none;
+  /* margin: 0 10px; */
+}
+.social-menu ul li .fa {
+  color: #000000;
+  /* font-size: 1000px; */
+  /* line-height: 50px; */
+  transition: 0.5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
 
-.socialicon:hover {
-  color: yellow;
-  box-shadow: cornflowerblue;
-  text-shadow: #aaa;
+.big-icon {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #0077b5;
 }
 
 .button1 {
@@ -220,7 +273,8 @@ textarea {
 }
 
 .fab,
-.fas {
+.fas,
+.far {
   /* justify-content: center; */
   /* background-color: red; */
   color: #000;
@@ -2308,7 +2362,7 @@ body.is-preload #wrapper {
 
 #footer {
   color: rgba(255, 255, 255, 0.45);
-  text-align: center;
+  text-align: right;
   padding: 2em 0 0 0;
   font-size: 0.75em;
 }
@@ -2324,25 +2378,6 @@ body.is-preload #wrapper {
 
 #footer a:hover {
   color: white;
-}
-
-#footer .copyright {
-  list-style: none;
-  padding-left: 0;
-}
-
-#footer .copyright li {
-  display: inline-block;
-  padding-left: 1em;
-  margin-left: 1em;
-  border-left: solid 1px rgba(255, 255, 255, 0.25);
-  line-height: 1;
-}
-
-#footer .copyright li:first-child {
-  padding-left: 0;
-  margin-left: 0;
-  border-left: 0;
 }
 
 @media screen and (max-width: 736px) {
