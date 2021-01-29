@@ -1771,6 +1771,13 @@ header > p {
   }
 }
 
+.certificate {
+  /* float: center; */
+  width:  250px;
+  height: 166px;
+  /* object-fit: cover; */
+} 
+
 /* Image */
 
 .image {
@@ -1780,6 +1787,7 @@ header > p {
 .image img {
   display: block;
   width: 100%;
+  
 }
 
 .image.fit {
